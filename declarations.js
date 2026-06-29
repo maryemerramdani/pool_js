@@ -1,22 +1,19 @@
 const escapeStr = "\`,\/,\/,\",\'";
-arr=[4,'2'];
-obj = 
+const arr=Object.freeze([4,'2']);
+const obj =Object.freeze(
 {
     "str" : "zone01",
     "num" : 44,
     "bool" : true,
     "undef" : undefined
-};
-nested=
+});
+const nested=Object.freeze(
 {
-    arr:[4,undefined,'2'],
-    obj:{
+    arr:Object.freeze([4,undefined,'2']),
+    obj:Object.freeze({
         "str": "bonjour",
         "num": 5,
         "bool":true
-    }
-};
-Object.freeze(arr);
-Object.freeze(obj);
-Object.freeze(nested);
+    })
+});
 
