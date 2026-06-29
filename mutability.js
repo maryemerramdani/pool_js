@@ -17,5 +17,5 @@ console.log(clone1.country === "US");
 console.log(clone2.age === 77);
 console.log(clone2.country === "US");
 
-console.log(samePerson.age ===78);
+console.log(samePerson.age === 78);
 console.log(samePerson.country === "FR");
