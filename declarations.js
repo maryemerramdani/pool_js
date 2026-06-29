@@ -11,9 +11,9 @@ const obj =Object.freeze(
 const nested=Object.freeze({
     arr:Object.freeze([4,undefined,"2"]),
     obj:Object.freeze({
-        "str": "bonjour",
-        "num": 5,
-        "bool":true
+        str: "bonjour",
+        num: 5,
+        bool:true
     })
 });
 
