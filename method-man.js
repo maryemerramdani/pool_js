@@ -1,11 +1,11 @@
 function words(str) 
 {
-  return str.split("");
+  return str.split(" ");
 }
 
 function sentence(arr) 
 {
-  return arr.join("");
+  return arr.join(" ");
 }
 
 function yell(str) 
@@ -14,7 +14,7 @@ function yell(str)
 }
 
 function whisper(str) {
-  return '*' + str.toLowerCase() + "*";
+  return '*'+ str.toLowerCase()+"*";
 }
 
 function capitalize(str) {
