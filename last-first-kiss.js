@@ -5,7 +5,7 @@ function first (arg){
     return;
 }
 function last (arg){
-    if(typeof(arg) == "object" || typeof(arg) == "ctring"){
+    if(typeof(arg) == "object" || typeof(arg) == "string"){
         return arg[arg.length-1];
     }
     return;
