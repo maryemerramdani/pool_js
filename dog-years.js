@@ -4,7 +4,7 @@ function dogYears(planet,seconds)
     const earthYearInSeconds = 31557600; 
     const dogYearsFactor = 7;
     const orbitalperiod ={
-        terre: 1.0,
+        terre : 1.0,
         Mercure: 0.2408467,
         venus: 0.6151926,
         mars: 1.8808158,
