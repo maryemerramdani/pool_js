@@ -5,11 +5,11 @@ const sourceObject = {
   log: console.log,
 };
 
-function Get(key){
+function get(key){
     return sourceObject[key];
 }
 
-function Set(key,value){
-    sourceObject[key]=value;
+function set(key, value){
+    sourceObject[key]= value;
     return sourceObject[key];
 }
