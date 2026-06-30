@@ -12,5 +12,5 @@ is.obj = (value) =>
     typeof value === "object" &&
     !Array.isArray(value);
 is.fun = (value) =>typeof value === "function"
-is.truthy = (value) => (value) => !!value;
-is.falsy = (value) => (value) => !value;
+is.truthy = (value) = (value) => !!value;
+is.falsy = (value) = (value) => !value;
