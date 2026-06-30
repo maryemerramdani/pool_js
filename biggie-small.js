@@ -1,2 +1,2 @@
 const smalls = -INFINITY;
-const biggie = NFINITY;
+const biggie = INFINITY;
