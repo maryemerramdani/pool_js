@@ -1,8 +1,8 @@
 
 function dogYears(planet,seconds)
 {
-    const a=7;
-    const b=31557600; 
+    const dogYearsFactor = 7;
+    const earthYearsInSeconds = 31557600; 
     const orbitalplanet={
         terre: 1.0,
         mercure: 0.2408467,
