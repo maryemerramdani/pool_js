@@ -3,7 +3,8 @@ function dogYears(planet,seconds)
 {
     const earthYearInSeconds = 31557600; 
     const dogYearsFactor = 7;
-    const orbitalPlanet = {
+    const orbitalPlanet =
+     {
         terre: 1.0,
         mercure: 0.2408467,
         vénus: 0.6151926,
@@ -17,4 +18,5 @@ function dogYears(planet,seconds)
     const ageInPlanetYears =
         seconds / (earthYearInSecond * orbitalPlanet[planet]);
     const ageInDogYears = ageInPlanetYears * dogYearsFactor;
-    return Number(ageInDogYears.toFixed(2));}
+    return Number(ageInDogYears.toFixed(2));
+}
