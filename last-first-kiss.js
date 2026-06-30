@@ -1,17 +1,17 @@
-function first (arg){
-    if(typeof(arg) == "object" || typeof(arg) == "string"){
+function first(arg){
+    if (typeof(arg) == "object" || typeof(arg) == "string"){
         return arg[0];
     }
     return;
 }
-function last (arg){
-    if(typeof(arg) == "object" || typeof(arg) == "string"){
+function last(arg){
+    if (typeof(arg) == "object" || typeof(arg) == "string"){
         return arg[arg.length-1];
     }
     return;
 }
-function kiss (arg){
-    if(typeof(arg) == "object" || typeof(arg) == "string"){
+function kiss(arg){
+    if (typeof(arg) == "object" || typeof(arg) == "string"){
         return [arg[arg.length-1],arg[0]];
     }
     return;
