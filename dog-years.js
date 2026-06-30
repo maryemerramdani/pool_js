@@ -20,3 +20,6 @@ function dogYears(planet,seconds)
     const ageInDogYears = ageInPlanetYears * dogYearsFactor;
     return Number(ageInDogYears.toFixed(2));
 }
+console.log(dogYears("earth", 1000000000)); // Should output 221.82
+console.log(dogYears("mercury", 1000000000)); // Should output 921.3
+console.log(dogYears("venus", 1000000000)); // Should output 360.59
