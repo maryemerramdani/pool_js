@@ -1,7 +1,7 @@
 const is = {};
 
 is.num = (value) => typeof value === "number";
-is.nan = (value) => Number.isNaN(VALUE);
+is.nan = (value) => Number.isNaN(value);
 is.str = (value) => typeof value === "string";
 is.bool = (value) => typeof value === "boolean";
 is.undef = (value) =>value === undefined;
