@@ -1,5 +1,5 @@
-const smalls = Number.POSITIVE_INFINITY;
-const biggie = Number. NEGATIVE_INFINITY;
+const smalls = -INFINITY;
+const biggie = NFINITY;
 // Test that you've found the correct minimum value
 console.log(smalls < -1e308); // Should output true
 console.log(isFinite(smalls)); // Should output true
