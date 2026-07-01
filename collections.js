@@ -44,10 +44,5 @@ export function strToObj(str) {
 
 export function superTypeOf(value) {
   if (value === null) return 'null';
-  if (value === undefined) return 'undefined';
-  const type = Object.prototype.toString.call(value).slice(8, -1);
-  if (type === 'Number' || type === 'String' || type === 'Boolean') {
-    return typeof value;
-  }
-  return type;
+  return Object.prototype.toString.call(value).slice(8, -1);
 }
