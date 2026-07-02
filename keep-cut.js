@@ -14,7 +14,7 @@ function keepFirst(str){
     return str.slice(0,2);
 }
 
-function keeplast (str){
+function keepLast (str){
     return str.slice(-2);
 }
 
