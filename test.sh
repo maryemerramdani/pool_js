@@ -1,0 +1,1 @@
+node /home/merramda/public/js/tests/test.mjs /home/merramda/Desktop/piscine-js $1
