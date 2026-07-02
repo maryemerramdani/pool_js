@@ -20,4 +20,5 @@ function keeplast (str){
 
 function keepFirsLast (str){
     return str.slice(0,2) + str.slice(-2);
-}
+} 
+const str = " Js ";
