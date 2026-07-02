@@ -19,6 +19,7 @@ function keeplast (str){
 }
 
 function keepFirsLast (str){
+    if(str.lngth <= 3) return str ;
     return str.slice(0,2) + str.slice(-2);
 } 
 const str = " Js ";
