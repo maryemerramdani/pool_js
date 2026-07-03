@@ -1,4 +1,4 @@
-const a =/hi/;
-const b =/^hi/;
-const c=/hi$/;
-const d =/^hi$/;
+const normal =/hi/;
+const begin =/^hi/;
+const end =/hi$/;
+const beginEnd =/^hi$/;
