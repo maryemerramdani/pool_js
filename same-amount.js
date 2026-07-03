@@ -1,4 +1,4 @@
-function sameAmount(str , reg1 , reg2){
+function sameAmount(str,reg1 ,reg2){
     const matches1 = str.match(reg1);
     const matches2 = str.match(reg2);
 
