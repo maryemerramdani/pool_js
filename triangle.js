@@ -5,9 +5,8 @@ function triangle (src ,num){
 
     for (let i =1 ; i<= num ; i++){
         result +=  CharacterData.repeat(i);
-        if (i< num) result += "\n";
-        
+        if (i< num) result += '\n';
     }
 
-
+    rreturn result;
 }
