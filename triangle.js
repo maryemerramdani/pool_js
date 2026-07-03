@@ -1,12 +1,13 @@
 function triangle (src ,num){
-    if(src <= 0 || "" ){
+    if(src <= 0 || src ==="" ){
         return "";
     }
     let result ="";
 
     for (let i =1 ; i<= num ; i++){
         result +=  src.repeat(i);
-        if (i< num) result += '\n';
+        if (i< num) 
+            result += '\n';
     }
     return result;
 }
