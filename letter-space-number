@@ -1,0 +1,3 @@
+function letterSpaceNumber (arg){
+    return arg.match(/[A-Za-z\s\d]?![A-Za-z\d]/g) || [];
+}
