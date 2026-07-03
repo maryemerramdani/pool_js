@@ -5,7 +5,7 @@ function triangle (src ,num){
     let result ="";
 
     for (let i =1 ; i<= num ; i++){
-        result +=  Char.repeat(i);
+        result +=  src.repeat(i);
         if (i< num) result += '\n';
     }
     return result;
